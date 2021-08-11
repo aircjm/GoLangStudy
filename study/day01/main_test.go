@@ -1,6 +1,1 @@
-package test
-
-
-
-func testVarUse() {}
-
+package main
