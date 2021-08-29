@@ -1,11 +1,18 @@
-pacakge main
+package main
 
+import "fmt"
 
 func VarUse() {
-	var i = 1
-	Println(i)
+	var i = "hello"
+	fmt.Println(i)
 }
 
+const name = "hello world"
+
+func ConstUse() string {
+	//name = "hello world!!"
+	return name
+}
 
 func main() {
 	VarUse()
